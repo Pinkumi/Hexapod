@@ -1,0 +1,18 @@
+# Entorno local
+.venv/
+__pycache__/
+*.py[cod]
+
+# Artefactos de instalación Python
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Configuración y datos locales
+.env
+.env.*
+!.env.example
+*.log
+*.pid
+config/local.*
